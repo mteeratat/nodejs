@@ -29,3 +29,18 @@ http.createServer(function (req, res) {
         return res.end();
     })
 }).listen(8000);
+
+// fs.appendFile('mynewfile.txt', 'Hello, World', function(err) {
+//     if (err) throw err;
+//     console.log('Saved!');
+// });
+
+// fs.open('mynewfile2.txt', 'w', function(err, file) {
+//     if (err) throw err;
+//     console.log('Saved!');
+// });
+
+// fs.writeFile('mynewfile3.txt', 'This is replace new file 3', function(err) {
+//     if (err) throw err;
+//     console.log('Saved!');
+// });
