@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myfirstmodule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mteeratat/nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mteeratat/nodejs/issues"
+  },
+  "homepage": "https://github.com/mteeratat/nodejs#readme",
+  "dependencies": {
+    "upper-case": "^2.0.2"
+  }
+}
