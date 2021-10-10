@@ -1,10 +1,10 @@
-let http = require('http');
-let dt = require('./myfirstmodule');
-let url = require('url');
-let fs = require('fs');
-let uc = require('upper-case');
-let rs = fs.createReadStream('./demo.txt');
-let events = require('events');
+let http = require("http");
+let dt = require("./myfirstmodule");
+let url = require("url");
+let fs = require("fs");
+let uc = require("upper-case");
+let rs = fs.createReadStream("./demo.txt");
+let events = require("events");
 let eventEmitter = new events.EventEmitter();
 
 // Create an event handler
@@ -111,4 +111,3 @@ let eventEmitter = new events.EventEmitter();
 //     if (err) throw err;
 //     console.log('File renamed!');
 // });
-
